@@ -14,7 +14,7 @@
         android:textStyle="bold"
         android:textAlignment="center" />
     <TextView
-        android:text="Ingredientes"
+        android:text="Pizza"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -108,6 +108,8 @@
     <AndroidResource Include="Resources\layout\Pedidos.axml" />
     <AndroidResource Include="Resources\layout\PedidoLVItem.axml" />
     <AndroidResource Include="Resources\layout\PizzaLVItem.axml" />
+    <AndroidResource Include="Resources\layout\Ubicacion.axml" />
+    <AndroidResource Include="Resources\drawable\pizza.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
