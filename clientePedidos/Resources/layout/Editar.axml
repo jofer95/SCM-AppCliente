@@ -5,27 +5,6 @@
     android:layout_height="match_parent"
     android:background="#fff5f5f5">
     <TextView
-        android:text="Cambiar Ingredientes"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1"
-        android:textColor="#ffc62828"
-        android:textStyle="bold"
-        android:textAlignment="center" />
-    <TextView
-        android:text="Pizza"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textColor="#ff263238"
-        android:background="#ffeeeeee" />
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/spinner1" />
-    <TextView
         android:text="Ingredientes Extra"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
