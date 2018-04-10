@@ -81,12 +81,15 @@
     <Compile Include="EditarActivity.cs" />
     <Compile Include="CatalogoActivity.cs" />
     <Compile Include="PedidosActivity.cs" />
-    <Compile Include="ISQLitePedidoRepository.cs" />
     <Compile Include="IPedidoRepository.cs" />
     <Compile Include="PedidosApp.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="PizzaLVAdapter.cs" />
     <Compile Include="PedidoLVAdapter.cs" />
+    <Compile Include="IClienteRepository.cs" />
+    <Compile Include="IPizzaRepository.cs" />
+    <Compile Include="IRepository.cs" />
+    <Compile Include="SQLRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

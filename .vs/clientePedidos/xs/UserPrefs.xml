@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{E08C0ACE-4062-4D64-9F67-60DA9978020F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="clientePedidos/CatalogoActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="clientePedidos/SQLRepository.cs">
     <Files>
-      <File FileName="clientePedidos/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="clientePedidos/Pedido.cs" Line="1" Column="1" />
-      <File FileName="clientePedidos/CatalogoActivity.cs" Line="1" Column="1" />
+      <File FileName="clientePedidos/MainActivity.cs" Line="24" Column="51" />
+      <File FileName="clientePedidos/SQLRepository.cs" Line="61" Column="40" />
+      <File FileName="clientePedidos/IRepository.cs" Line="14" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

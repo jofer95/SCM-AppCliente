@@ -6,12 +6,12 @@ namespace clientePedidos
     public interface IPedidoRepository
 
     {
-        List<Pizza> LeerPizza();
-        Pizza LeerPorId(int PizzaId);
-        void Ordenar(Pizza p);
-        void CancelarPedido(Pizza p);
-        void EditarPedido(Pizza p);
-        void Ubicacion(Pizza p);
+        List<Pedido> LeerPedido();
+        Pedido LeerPorId(int PedidoId);
+        void Ordenar(Pedido p);
+        void CancelarPedido(Pedido p);
+        void EditarPedido(Pedido p);
+        void Ubicacion(Pedido p);
         void inicializar();
 
     }

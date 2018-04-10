@@ -60,3 +60,14 @@
 /Users/macos/Desktop/clientePedidos/clientePedidos/bin/Debug/Mono.Android.pdb
 /Users/macos/Desktop/clientePedidos/clientePedidos/obj/Debug/linksrc/clientePedidos.pdb
 /Users/macos/Desktop/clientePedidos/clientePedidos/obj/Debug/linksrc/Mono.Android.pdb
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Annotations.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Compat.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.UI.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Core.Utils.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Media.Compat.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Fragment.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Vector.Drawable.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/XbdMerge/Xamarin.Android.Support.v7.AppCompat.dll.stamp
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/clientePedidos.dll
+/Users/ccdm02/Documents/Negocios2/App-Cliente/clientePedidos/obj/Debug/clientePedidos.pdb

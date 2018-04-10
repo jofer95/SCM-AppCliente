@@ -6,7 +6,8 @@ namespace clientePedidos
         public int Id { get; set; }
         public string NombreCliente { get; set; }
         public int Descripcion { get; set; }
-        public string Ubicacion { get; set; }
+        public double Longitud { get; set; }
+        public double Altitud { get; set; }
         public string Estado { get; set; }
         public int Total { get; set; }
 
