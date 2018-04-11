@@ -23,7 +23,10 @@ namespace clientePedidos
 
         public void CancelarPedido(Pedido p)
         {
-            throw new NotImplementedException();
+            lock (l)
+            {
+                db.Delete<Pedido>(p.Id);
+            }
         }
 
         public void CrearPedido(Pedido p)
@@ -36,17 +39,18 @@ namespace clientePedidos
 
         public void CrearPizza(Pizza p)
         {
-            throw new NotImplementedException();
-        }
-
-        public void EditarPedido(Pedido p)
-        {
-            throw new NotImplementedException();
+            lock (l)
+            {
+                db.Insert(p);
+            } 
         }
 
         public void GuardarCliente(Cliente c)
         {
-            throw new NotImplementedException();
+            lock (l)
+            {
+                db.Insert(c);
+            }        
         }
 
         public void inicializar()
@@ -63,18 +67,32 @@ namespace clientePedidos
 
         public Cliente LeerClienteId(int ClienteId)
         {
-            throw new NotImplementedException();
+            lock (l)
+            {
+
+                return db.Find<Cliente>(ClienteId);
+
+
+            }        
         }
 
         public List<Pedido> LeerPedido()
         {
-            throw new NotImplementedException();
+            lock (l)
+            {
+                return db.Table<Pedido>().ToList();
+            }        
         }
 
         public Pedido LeerPedidoId(int PedidoId)
         {
-            throw new NotImplementedException();
-        }
+            lock (l)
+            {
+
+                return db.Find<Pedido>(PedidoId);
+
+
+            }        }
 
         public List<Pizza> LeerPizza()
         {
@@ -85,7 +103,13 @@ namespace clientePedidos
 
         public Pizza LeerPizzaId(int PizzaId)
         {
-            throw new NotImplementedException();
+            lock (l)
+            {
+
+                return db.Find<Pizza>(PizzaId);
+
+
+            }        
         }
 
         public void Ubicacion(Pedido p)
@@ -107,6 +131,7 @@ namespace clientePedidos
                     p.Estado = p.Estado;
                     db.Update(p);
                 }
-            }        }
+            }      
+        }
     }
 }

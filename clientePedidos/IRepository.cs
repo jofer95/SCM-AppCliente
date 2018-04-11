@@ -9,7 +9,6 @@ namespace clientePedidos
         Pedido LeerPedidoId(int PedidoId);
         void CrearPedido (Pedido p);
         void CancelarPedido(Pedido p);
-        void EditarPedido(Pedido p);
         void Ubicacion(Pedido p);
         void Actulizar(Pedido p);
         void inicializar();
