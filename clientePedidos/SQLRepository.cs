@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using SQLite;
 
 namespace clientePedidos
 {
@@ -114,7 +116,7 @@ namespace clientePedidos
 
         public void Ubicacion(Pedido p)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public void Actulizar(Pedido p)

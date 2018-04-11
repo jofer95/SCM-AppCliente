@@ -40,7 +40,7 @@ namespace clientePedidos
                 view = context.LayoutInflater.Inflate(Resource.Layout.PedidoLVItem, null);
             view.FindViewById<TextView>(Resource.Id.TextNombre).Text = item.NombreCliente;
             view.FindViewById<TextView>(Resource.Id.TextDescripcion).Text = item.Descripcion.ToString();
-            view.FindViewById<TextView>(Resource.Id.TextUbicacion).Text = item.Ubicacion;
+           // view.FindViewById<TextView>(Resource.Id.TextUbicacion).Text = item.Ubicacion;
             view.FindViewById<TextView>(Resource.Id.TextEstado).Text = item.Estado;
             return view;
 

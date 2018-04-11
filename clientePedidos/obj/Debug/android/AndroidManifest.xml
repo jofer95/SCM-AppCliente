@@ -4,7 +4,7 @@
   <uses-sdk android:minSdkVersion="10" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="md562dd7b7d20276f972359f3338ac61bfa.PedidosApp" android:debuggable="true">
     <activity android:icon="@mipmap/icon" android:label="clientePedidos" android:name="md562dd7b7d20276f972359f3338ac61bfa.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
