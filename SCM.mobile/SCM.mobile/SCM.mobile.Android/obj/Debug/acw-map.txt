@@ -1,0 +1,4 @@
+SCM.mobile.Droid.MainActivity, SCM.mobile.Android;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity
+SCM.mobile.Droid.MainActivity, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity
+SCM.mobile.Droid.MainActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity
+scm.mobile.droid.MainActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity

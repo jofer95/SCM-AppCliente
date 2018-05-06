@@ -7,7 +7,6 @@ namespace SCM.mobile.Droid
     [Activity(Label = "SCM.mobile", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
         IProductosRepository repo;
         protected override void OnCreate(Bundle savedInstanceState)
         {
