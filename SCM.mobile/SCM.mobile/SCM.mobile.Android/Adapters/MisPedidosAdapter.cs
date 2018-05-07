@@ -46,14 +46,9 @@ namespace SCM.mobile.Droid.Adapters
             View view = convertView;
             if (view == null)
                 view = context.LayoutInflater.Inflate(Resource.Layout.itemProducto, null);
-            view.FindViewById<TextView>(Resource.Id.tvDescripcion).Text = "Descripció: " + item.Descripcion;
-            view.FindViewById<TextView>(Resource.Id.tvCategoria).Text = "Categoria: " + item.Categoria;
-            view.FindViewById<TextView>(Resource.Id.tvPrecio).Text = "Precio: $" + item.Precio.ToString();
-            if (item.Imagen != null)
-            {
-                var imageBitmap = GetImageBitmapFromUrl(item.Imagen);
-                view.FindViewById<ImageView>(Resource.Id.imgImagen).SetImageBitmap(imageBitmap);
-            }
+            view.FindViewById<TextView>(Resource.Id.tvDescripcion).Text = "Descripció: " + item.DescripcionProducto;
+            view.FindViewById<TextView>(Resource.Id.tvCategoria).Text = "Fecha del pedido: " + item.FechaPedido;
+            view.FindViewById<TextView>(Resource.Id.tvPrecio).Text = "Estatus: " + item.Estado;
             return view;
         }
 

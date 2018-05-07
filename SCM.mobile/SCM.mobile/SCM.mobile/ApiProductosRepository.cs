@@ -30,5 +30,19 @@ namespace SCM.mobile
             }
             return null;
         }
+
+        public async Task<List<Pedido>> LeerTodosPedidosPorTelefono(string telefono)
+        {
+            var uri = new Uri(string.Format(ApiLocation, string.Empty));
+            var response = await client.PostAsync(uri);
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var lista = JsonConvert.DeserializeObject<List<Pedido>>(content);
+
+                return lista;
+            }
+            return null;
+        }
     }
 }

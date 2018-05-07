@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{C6BB56E5-C5CE-42F1-8387-85DBE58F31A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile/ApiProductosRepository.cs">
     <Files>
       <File FileName="SCM.mobile/SCM.mobile.Android/MisPedidosActivity.cs" Line="21" Column="32" />
       <File FileName="SCM.mobile/SCM.mobile.Android/CatalogoActivity.cs" Line="22" Column="35" />
-      <File FileName="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs" Line="77" Column="2" />
-      <File FileName="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" Line="14" Column="35" />
+      <File FileName="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" Line="10" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
