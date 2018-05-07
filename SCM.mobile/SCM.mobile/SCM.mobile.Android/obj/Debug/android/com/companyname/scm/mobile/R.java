@@ -17,8 +17,8 @@ public final class R {
         public static final int btnSalir=0x7f050001;
         public static final int editTelefonoLogin=0x7f05000c;
         public static final int imgImagen=0x7f050009;
+        public static final int listPedidos=0x7f05000e;
         public static final int listProductos=0x7f050003;
-        public static final int listView1=0x7f05000e;
         public static final int textView1=0x7f050002;
         public static final int tvCategoria=0x7f05000a;
         public static final int tvDescripcion=0x7f050004;

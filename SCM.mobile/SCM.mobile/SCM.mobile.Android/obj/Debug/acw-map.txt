@@ -6,7 +6,15 @@ SCM.mobile.Droid.CatalogoActivity, SCM.mobile.Android;md5717cc19635ebaefb2fba2dc
 SCM.mobile.Droid.CatalogoActivity, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5717cc19635ebaefb2fba2dc5fcdc9ef7.CatalogoActivity
 SCM.mobile.Droid.CatalogoActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.CatalogoActivity
 scm.mobile.droid.CatalogoActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.CatalogoActivity
+SCM.mobile.Droid.MisPedidosActivity, SCM.mobile.Android;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
+SCM.mobile.Droid.MisPedidosActivity, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
+SCM.mobile.Droid.MisPedidosActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
+scm.mobile.droid.MisPedidosActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
 SCM.mobile.Droid.Adapters.CatalogoAdapter, SCM.mobile.Android;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
 SCM.mobile.Droid.Adapters.CatalogoAdapter, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
 SCM.mobile.Droid.Adapters.CatalogoAdapter;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
 scm.mobile.droid.adapters.CatalogoAdapter;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
+SCM.mobile.Droid.Adapters.MisPedidosAdapter, SCM.mobile.Android;md562780b35a89fb15ab2db6a9e32f5a786.MisPedidosAdapter
+SCM.mobile.Droid.Adapters.MisPedidosAdapter, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md562780b35a89fb15ab2db6a9e32f5a786.MisPedidosAdapter
+SCM.mobile.Droid.Adapters.MisPedidosAdapter;md562780b35a89fb15ab2db6a9e32f5a786.MisPedidosAdapter
+scm.mobile.droid.adapters.MisPedidosAdapter;md562780b35a89fb15ab2db6a9e32f5a786.MisPedidosAdapter

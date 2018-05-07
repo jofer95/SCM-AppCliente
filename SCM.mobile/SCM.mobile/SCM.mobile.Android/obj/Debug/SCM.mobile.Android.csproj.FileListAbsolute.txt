@@ -17,8 +17,11 @@
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/catalogo.xml
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemproducto.xml
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/mispedidos.xml
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemmispedidos.xml
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.cs.flag
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/uploadflags.txt
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.csprojResolveAssemblyReference.cache
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Android.pdb
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/SCM.mobile.Android.pdb
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/Mono.Android.pdb

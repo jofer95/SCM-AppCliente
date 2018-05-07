@@ -62,11 +62,11 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050009
 			public const int imgImagen = 2131034121;
 			
+			// aapt resource value: 0x7f05000e
+			public const int listPedidos = 2131034126;
+			
 			// aapt resource value: 0x7f050003
 			public const int listProductos = 2131034115;
-			
-			// aapt resource value: 0x7f05000e
-			public const int listView1 = 2131034126;
 			
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;

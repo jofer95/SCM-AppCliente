@@ -8,7 +8,9 @@ namespace SCM.mobile
     interface IProductosRepository
     {
         Task<List<Producto>> LeerProductos();
-        Task<List<Pedido>> LeerTodosPedidosPorTelefono(string telefono);
+        Task<List<Pedido>> LeerTodosPedidosPorTelefono(Pedido pedido);
+        Task<bool> ActualizarEstadoPedido(Pedido pedido);
+        Task<bool> RegistrarPedido(Pedido pedido);
     }
     public class Pedido
     {
@@ -20,6 +22,8 @@ namespace SCM.mobile
         public decimal Precio { get; set; }
         public string DescripcionProducto { get; set; }
         public string Estado { get; set; }
+        public string Latitud { get; set; }
+        public string Longitud { get; set; }
     }
     public class Producto
     {

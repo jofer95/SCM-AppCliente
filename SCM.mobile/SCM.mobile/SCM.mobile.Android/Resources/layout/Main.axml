@@ -18,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTelefonoLogin"
-        android:maxLength="10" />
+        android:maxLength="10"
+        android:text="6671896358" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

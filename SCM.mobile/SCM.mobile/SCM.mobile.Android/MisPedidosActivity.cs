@@ -10,6 +10,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SCM.mobile.Droid.Adapters;
 
 namespace SCM.mobile.Droid
 {
@@ -19,11 +20,35 @@ namespace SCM.mobile.Droid
         ListView lvMisPedidos;
         MisPedidosAdapter adapter;
         IProductosRepository repo;
+        string numeroTelefono;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MisPedidos);
-            lvCatalogo = FindViewById<ListView>(Resource.Id.listProductos);
+            lvMisPedidos = FindViewById<ListView>(Resource.Id.listPedidos);
+            repo = new ApiProductosRepository();
+            numeroTelefono = Intent.GetStringExtra("MyData") ?? "";
+            obtenerCatalogoProductos();
+            lvMisPedidos.ItemClick += onItemClick;
+        }
+
+        private void onItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+
+        }
+        public async void obtenerCatalogoProductos()
+        {
+            Pedido pedido = new Pedido();
+            pedido.Telefono = numeroTelefono;
+            List<Pedido> pedidos = await repo.LeerTodosPedidosPorTelefono(pedido);
+            //listcatalogoProductos = productos;
+            if(pedidos != null){
+                adapter = new MisPedidosAdapter(this, pedidos);
+                //Asignar a la lista
+                lvMisPedidos.Adapter = adapter;   
+            }else{
+                Toast.MakeText(this, "Error al obtener los pedidos", ToastLength.Short).Show();
+            }
         }
     }
 }

@@ -12,11 +12,13 @@ namespace SCM.mobile.Droid.Adapters
     {
         private Activity context;
         private List<Pedido> items;
+        IProductosRepository repo;
 
         public MisPedidosAdapter(Activity context, List<Pedido> items)
         {
             this.context = context;
             this.items = items;
+            repo = new ApiProductosRepository();
         }
 
         public override Pedido this[int position]
@@ -45,11 +47,43 @@ namespace SCM.mobile.Droid.Adapters
             var item = items[position];
             View view = convertView;
             if (view == null)
-                view = context.LayoutInflater.Inflate(Resource.Layout.itemProducto, null);
+                view = context.LayoutInflater.Inflate(Resource.Layout.itemMisPedidos, null);
             view.FindViewById<TextView>(Resource.Id.tvDescripcion).Text = "Descripció: " + item.DescripcionProducto;
-            view.FindViewById<TextView>(Resource.Id.tvCategoria).Text = "Fecha del pedido: " + item.FechaPedido;
-            view.FindViewById<TextView>(Resource.Id.tvPrecio).Text = "Estatus: " + item.Estado;
+            view.FindViewById<TextView>(Resource.Id.tvFechaPedido).Text = "Fecha del pedido: " + item.FechaPedido.ToString();
+            view.FindViewById<TextView>(Resource.Id.tvEstatus).Text = "Estatus: " + item.Estado;
+            if(item.Estado.Equals("CO") || item.Estado.Equals("CA")){
+                view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Red);
+            }else if(item.Estado.Equals("PR")){
+                view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Yellow);
+            }else{
+                view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Green);
+            }
+            Button btnCancelar = view.FindViewById<Button>(Resource.Id.btnCancelarPedido);
+            btnCancelar.Click += delegate {      
+                mostrarDialogoCancelar(item);
+            };
             return view;
+        }
+
+        private void mostrarDialogoCancelar(Pedido item){
+            AlertDialog.Builder alert = new AlertDialog.Builder(context);
+            alert.SetTitle("Confirmar pedido");
+            alert.SetMessage("Desea cancelar el pedido seleccionado?");
+            alert.SetPositiveButton("Cancelar pedido", (senderAlert, args) => {
+                item.Estado = "CA";
+                repo.ActualizarEstadoPedido(item);
+                Toast.MakeText(context, "Cancelado!", ToastLength.Short).Show();
+                context.Finish();
+            });
+
+            alert.SetNegativeButton("Continuar pedido", (senderAlert, args) => {
+                //Toast.MakeText(context, "", ToastLength.Short).Show();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
         }
 
         private Bitmap GetImageBitmapFromUrl(string url)
