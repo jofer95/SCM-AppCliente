@@ -15,6 +15,8 @@
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xhdpi/icon.png
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxhdpi/icon.png
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/catalogo.xml
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemproducto.xml
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.cs.flag
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/uploadflags.txt
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Android.pdb

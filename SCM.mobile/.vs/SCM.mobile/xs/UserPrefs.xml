@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{C6BB56E5-C5CE-42F1-8387-85DBE58F31A5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs">
     <Files>
-      <File FileName="SCM.mobile/SCM.mobile.Android/MainActivity.cs" Line="14" Column="13" />
-      <File FileName="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" Line="31" Column="25" />
-      <File FileName="SCM.mobile/SCM.mobile/IProductosRepository.cs" Line="21" Column="34" />
+      <File FileName="SCM.mobile/SCM.mobile.Android/MisPedidosActivity.cs" Line="21" Column="32" />
+      <File FileName="SCM.mobile/SCM.mobile.Android/CatalogoActivity.cs" Line="22" Column="35" />
+      <File FileName="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs" Line="77" Column="2" />
+      <File FileName="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" Line="14" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile/ApiProductosRepository.cs" relfile="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" line="29" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android PreferredExecutionTarget="Android.ZY223LCWN3" />
+  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY223LCWN3" />
   <MultiItemStartupConfigurations />
 </Properties>
