@@ -68,7 +68,7 @@ namespace SCM.mobile.Droid
         {
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.SetTitle("Confirmar pedido");
-            alert.SetMessage("Desea pediar este producto?");
+            alert.SetMessage("Desea pedir este producto?");
             alert.SetPositiveButton("Pedir YA!", (senderAlert, args) => {
                 Pedido pedido = new Pedido();
                 pedido.Cliente = "1";

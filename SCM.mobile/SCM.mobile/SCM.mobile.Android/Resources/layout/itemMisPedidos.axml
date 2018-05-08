@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCompletarPedido"
-        android:text="¡Recivir mi pedido!"
+        android:text="¡Recibi mi pedido!"
         android:textColor="#ff82f681" />
     <View
         android:layout_width="match_parent"

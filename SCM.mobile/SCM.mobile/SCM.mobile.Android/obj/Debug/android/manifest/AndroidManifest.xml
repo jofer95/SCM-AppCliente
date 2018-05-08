@@ -5,7 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="SCM.mobile" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="PizzasMoya!" android:name="md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity">
+    <activity android:icon="@mipmap/icon" android:label="Pizzeria!" android:name="md5717cc19635ebaefb2fba2dc5fcdc9ef7.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

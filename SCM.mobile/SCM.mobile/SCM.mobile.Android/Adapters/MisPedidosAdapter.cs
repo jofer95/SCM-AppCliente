@@ -119,12 +119,12 @@ namespace SCM.mobile.Droid.Adapters
         {
             AlertDialog.Builder alert = new AlertDialog.Builder(context);
             alert.SetTitle("Confirmar pedido");
-            alert.SetMessage("Recivio su pedido?");
-            alert.SetPositiveButton("Pedido recivido", (senderAlert, args) =>
+            alert.SetMessage("Recibio su pedido?");
+            alert.SetPositiveButton("Pedido recibido", (senderAlert, args) =>
             {
                 item.Estado = "R";
                 repo.RecivirPedido(item);
-                Toast.MakeText(context, "Recivido!", ToastLength.Short).Show();
+                Toast.MakeText(context, "Recibido!", ToastLength.Short).Show();
                 context.Finish();
             });
 
