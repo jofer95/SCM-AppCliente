@@ -12,11 +12,16 @@ AndroidSdkPath=
 AndroidNdkPath=
 JavaSdkPath=
 AndroidSequencePointsMode=None
-XamarinAndroidVersion=8.2.0-16
+XamarinAndroidVersion=8.1.5-0
 MonoSymbolArchive=False
 AndroidUseLatestPlatformSdk=true
-TargetFrameworkVersion=v8.1
+TargetFrameworkVersion=v7.1
 AndroidCreatePackagePerAbi=
+<<<<<<< HEAD
 OS=Unix
 DesignTimeBuild=
 AndroidIncludeDebugSymbols=True
+=======
+OS=Windows_NT
+DesignTimeBuild=
+>>>>>>> master
