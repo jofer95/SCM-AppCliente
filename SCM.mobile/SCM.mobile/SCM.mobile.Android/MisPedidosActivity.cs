@@ -28,11 +28,17 @@ namespace SCM.mobile.Droid
             lvMisPedidos = FindViewById<ListView>(Resource.Id.listPedidos);
             repo = new ApiProductosRepository();
             numeroTelefono = Intent.GetStringExtra("MyData") ?? "";
-            obtenerCatalogoProductos();
+            //obtenerCatalogoProductos();
             lvMisPedidos.ItemClick += onItemClick;
         }
 
-        private void onItemClick(object sender, AdapterView.ItemClickEventArgs e)
+		protected override void OnResume()
+		{
+            base.OnResume();
+            obtenerCatalogoProductos();
+		}
+
+		private void onItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
 
         }

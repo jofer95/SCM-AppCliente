@@ -28,7 +28,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCancelarPedido"
-        android:text="Cancelar pedio" />
+        android:text="Cancelar pedio"
+        android:textColor="#ffda7272" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCompletarPedido"
+        android:text="¡Recivir mi pedido!"
+        android:textColor="#ff82f681" />
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"

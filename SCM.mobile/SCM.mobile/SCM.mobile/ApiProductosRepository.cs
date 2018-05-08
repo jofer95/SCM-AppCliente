@@ -78,5 +78,21 @@ namespace SCM.mobile
             }
             return false;
         }
+
+        public async Task<bool> RecivirPedido(Pedido solicitud)
+        {
+            var uri = new Uri(string.Format(ApiLocation + "Pedidos/BorrarPedido", string.Empty));
+            var json = JsonConvert.SerializeObject(solicitud);
+            var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
+            var response = await client.PostAsync(uri, stringContent);
+            if (response.IsSuccessStatusCode)
+            {
+                var resultado = await response.Content.ReadAsStringAsync();
+                //var lista = JsonConvert.DeserializeObject<List<Pedido>>(resultado);
+
+                return true;
+            }
+            return false;
+        }
     }
 }

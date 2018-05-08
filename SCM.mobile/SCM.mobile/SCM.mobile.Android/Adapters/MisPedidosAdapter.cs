@@ -51,34 +51,85 @@ namespace SCM.mobile.Droid.Adapters
             view.FindViewById<TextView>(Resource.Id.tvDescripcion).Text = "Descripció: " + item.DescripcionProducto;
             view.FindViewById<TextView>(Resource.Id.tvFechaPedido).Text = "Fecha del pedido: " + item.FechaPedido.ToString();
             view.FindViewById<TextView>(Resource.Id.tvEstatus).Text = "Estatus: " + item.Estado;
-            if(item.Estado.Equals("CO") || item.Estado.Equals("CA")){
+            if (item.Estado.Equals("CA"))
+            {
                 view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<Button>(Resource.Id.btnCompletarPedido).Visibility = ViewStates.Gone;
+
                 view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Red);
-            }else if(item.Estado.Equals("PR")){
+            }
+            else if (item.Estado.Equals("PR"))
+            {
                 view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<Button>(Resource.Id.btnCompletarPedido).Visibility = ViewStates.Gone;
                 view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Yellow);
-            }else{
+            }
+            else if (item.Estado.Equals("CO"))
+            {
+                view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<Button>(Resource.Id.btnCompletarPedido).Visibility = ViewStates.Visible;
                 view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Green);
             }
+            else if (item.Estado.Equals("EN"))
+            {
+                view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.Blue);
+                view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Gone;
+                view.FindViewById<Button>(Resource.Id.btnCompletarPedido).Visibility = ViewStates.Gone;
+            }else{
+                view.FindViewById<TextView>(Resource.Id.tvEstatus).SetTextColor(Color.White);
+                view.FindViewById<Button>(Resource.Id.btnCancelarPedido).Visibility = ViewStates.Visible;
+                view.FindViewById<Button>(Resource.Id.btnCompletarPedido).Visibility = ViewStates.Gone;
+            }
             Button btnCancelar = view.FindViewById<Button>(Resource.Id.btnCancelarPedido);
-            btnCancelar.Click += delegate {      
+            btnCancelar.Click += delegate
+            {
                 mostrarDialogoCancelar(item);
+            };
+            Button btnRecivir = view.FindViewById<Button>(Resource.Id.btnCompletarPedido);
+            btnRecivir.Click += delegate
+            {
+                mostrarDialogoRecivir(item);
             };
             return view;
         }
 
-        private void mostrarDialogoCancelar(Pedido item){
+        private void mostrarDialogoCancelar(Pedido item)
+        {
             AlertDialog.Builder alert = new AlertDialog.Builder(context);
             alert.SetTitle("Confirmar pedido");
             alert.SetMessage("Desea cancelar el pedido seleccionado?");
-            alert.SetPositiveButton("Cancelar pedido", (senderAlert, args) => {
+            alert.SetPositiveButton("Cancelar pedido", (senderAlert, args) =>
+            {
                 item.Estado = "CA";
                 repo.ActualizarEstadoPedido(item);
                 Toast.MakeText(context, "Cancelado!", ToastLength.Short).Show();
                 context.Finish();
             });
 
-            alert.SetNegativeButton("Continuar pedido", (senderAlert, args) => {
+            alert.SetNegativeButton("Continuar pedido", (senderAlert, args) =>
+            {
+                //Toast.MakeText(context, "", ToastLength.Short).Show();
+            });
+
+            Dialog dialog = alert.Create();
+            dialog.Show();
+        }
+
+        private void mostrarDialogoRecivir(Pedido item)
+        {
+            AlertDialog.Builder alert = new AlertDialog.Builder(context);
+            alert.SetTitle("Confirmar pedido");
+            alert.SetMessage("Recivio su pedido?");
+            alert.SetPositiveButton("Pedido recivido", (senderAlert, args) =>
+            {
+                item.Estado = "R";
+                repo.RecivirPedido(item);
+                Toast.MakeText(context, "Recivido!", ToastLength.Short).Show();
+                context.Finish();
+            });
+
+            alert.SetNegativeButton("Aun no...", (senderAlert, args) =>
+            {
                 //Toast.MakeText(context, "", ToastLength.Short).Show();
             });
 

@@ -47,8 +47,11 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050007
 			public const int btnCancelarPedido = 2131034119;
 			
-			// aapt resource value: 0x7f05000d
-			public const int btnIniciarSesion = 2131034125;
+			// aapt resource value: 0x7f050008
+			public const int btnCompletarPedido = 2131034120;
+			
+			// aapt resource value: 0x7f05000e
+			public const int btnIniciarSesion = 2131034126;
 			
 			// aapt resource value: 0x7f050000
 			public const int btnMisPedidos = 2131034112;
@@ -56,14 +59,14 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050001
 			public const int btnSalir = 2131034113;
 			
-			// aapt resource value: 0x7f05000c
-			public const int editTelefonoLogin = 2131034124;
+			// aapt resource value: 0x7f05000d
+			public const int editTelefonoLogin = 2131034125;
 			
-			// aapt resource value: 0x7f050009
-			public const int imgImagen = 2131034121;
+			// aapt resource value: 0x7f05000a
+			public const int imgImagen = 2131034122;
 			
-			// aapt resource value: 0x7f05000e
-			public const int listPedidos = 2131034126;
+			// aapt resource value: 0x7f05000f
+			public const int listPedidos = 2131034127;
 			
 			// aapt resource value: 0x7f050003
 			public const int listProductos = 2131034115;
@@ -71,8 +74,8 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;
 			
-			// aapt resource value: 0x7f05000a
-			public const int tvCategoria = 2131034122;
+			// aapt resource value: 0x7f05000b
+			public const int tvCategoria = 2131034123;
 			
 			// aapt resource value: 0x7f050004
 			public const int tvDescripcion = 2131034116;
@@ -83,11 +86,11 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050005
 			public const int tvFechaPedido = 2131034117;
 			
-			// aapt resource value: 0x7f05000b
-			public const int tvPrecio = 2131034123;
+			// aapt resource value: 0x7f05000c
+			public const int tvPrecio = 2131034124;
 			
-			// aapt resource value: 0x7f050008
-			public const int view1 = 2131034120;
+			// aapt resource value: 0x7f050009
+			public const int view1 = 2131034121;
 			
 			static Id()
 			{

@@ -11,6 +11,7 @@ namespace SCM.mobile
         Task<List<Pedido>> LeerTodosPedidosPorTelefono(Pedido pedido);
         Task<bool> ActualizarEstadoPedido(Pedido pedido);
         Task<bool> RegistrarPedido(Pedido pedido);
+        Task<bool> RecivirPedido(Pedido pedido);
     }
     public class Pedido
     {
