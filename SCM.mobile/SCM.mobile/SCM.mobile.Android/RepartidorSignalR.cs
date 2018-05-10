@@ -19,6 +19,7 @@ namespace SCM.mobile.Droid
         PedidosClient pedidos;
         Button btnIniciar;
         Button btnEsperar;
+        EditText editPedido;
         EditText editLat;
         EditText editLon;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -26,11 +27,12 @@ namespace SCM.mobile.Droid
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.RepartidorSingalR);
-            btnIniciar = FindViewById<Button>(Resource.Id.ed);
-            btnEsperar = FindViewById<Button>(Resource.Id.listPedidos);
+            btnIniciar = FindViewById<Button>(Resource.Id.btnIniciar);
+            btnEsperar = FindViewById<Button>(Resource.Id.btnEsperando);
 
-            editLat = FindViewById<EditText>(Resource.Id.ed);
-            editLon = FindViewById<EditText>(Resource.Id.listPedidos);
+            editPedido = FindViewById<EditText>(Resource.Id.editPedido);
+            editLat = FindViewById<EditText>(Resource.Id.editLat);
+            editLon = FindViewById<EditText>(Resource.Id.editLon);
             pedidos = new PedidosClient();
 
             pedidos.OnEstoyEsperando += Pedidos_OnEstoyEsperando;
@@ -44,14 +46,14 @@ namespace SCM.mobile.Droid
         }
 
         async void IniciarBtn_Click(Object sender, System.EventArgs e){
-            var pedido = tvPrueba1.Text;
+            var pedido = editPedido.Text;
             await pedidos.IniciarRecorrido(pedido);
         }
 
         async void SpLat_ProgressChanged(Object sender, System.EventArgs e){
             //var lat = SpLat_Progress;
             //var lon = SpLat_Progress;
-            await pedidos.NotificarUbicacion(tvPrueba1.Text, 123, 2315);
+            await pedidos.NotificarUbicacion(editPedido.Text, long.Parse(editLat.Text), long.Parse(editLat.Text));
         }
 
         void Pedidos_OnEstoyEsperando(object sender,System.EventArgs e){

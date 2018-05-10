@@ -30,6 +30,7 @@ namespace SCM.mobile.Droid
             SetContentView(Resource.Layout.Catalogo);
             Button btnCerrarSesion = FindViewById<Button>(Resource.Id.btnSalir);
             Button btnMisPedidos = FindViewById<Button>(Resource.Id.btnMisPedidos);
+            Button btnLocalizacion = FindViewById<Button>(Resource.Id.btnLocalizacion);
             lvCatalogo = FindViewById<ListView>(Resource.Id.listProductos);
             repo = new ApiProductosRepository();
             numeroTelefono = Intent.GetStringExtra("MyData") ?? "";
@@ -37,6 +38,7 @@ namespace SCM.mobile.Droid
             lvCatalogo.ItemClick += onItemClick;
             btnCerrarSesion.Click += cerrarSesionClick;
             btnMisPedidos.Click += misPedidosClick;
+            btnLocalizacion.Click += localizacionRepartidor;
         }
 
         private void misPedidosClick(object sender, EventArgs e)
@@ -44,6 +46,13 @@ namespace SCM.mobile.Droid
             var misPedidos = new Intent(this, typeof(MisPedidosActivity));
             misPedidos.PutExtra("MyData", numeroTelefono);
             StartActivity(misPedidos);
+        }
+
+        private void localizacionRepartidor(object sender, EventArgs e)
+        {
+            var repartidor = new Intent(this, typeof(RepartidorSignalR));
+            //repartidor.PutExtra("MyData", numeroTelefono);
+            StartActivity(repartidor);
         }
 
         private void cerrarSesionClick(object sender, EventArgs e)
