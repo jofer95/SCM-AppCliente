@@ -5,7 +5,7 @@ using Android.Content;
 
 namespace SCM.mobile.Droid
 {
-    [Activity(Label = "PizzasMoya!", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Pizzeria!", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
         EditText tvNumeroTelefono;
