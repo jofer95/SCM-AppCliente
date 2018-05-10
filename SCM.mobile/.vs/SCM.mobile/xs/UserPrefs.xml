@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{C6BB56E5-C5CE-42F1-8387-85DBE58F31A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile/PedidosClient.cs">
     <Files>
-      <File FileName="SCM.mobile/SCM.mobile.Android/MisPedidosActivity.cs" Line="35" Column="30" />
-      <File FileName="SCM.mobile/SCM.mobile.Android/CatalogoActivity.cs" Line="84" Column="47" />
-      <File FileName="SCM.mobile/SCM.mobile.Android/Adapters/MisPedidosAdapter.cs" Line="130" Column="13" />
-      <File FileName="SCM.mobile/SCM.mobile/ApiProductosRepository.cs" Line="85" Column="43" />
+      <File FileName="SCM.mobile/SCM.mobile/PedidosClient.cs" Line="41" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +9,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ZY223LCWN3" />
+  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MultiItemStartupConfigurations />
 </Properties>

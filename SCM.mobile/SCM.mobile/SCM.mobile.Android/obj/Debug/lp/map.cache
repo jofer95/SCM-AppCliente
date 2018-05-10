@@ -1,2 +1,3 @@
 Newtonsoft.Json
 System.Runtime
+Microsoft.AspNet.SignalR.Client

@@ -12,5 +12,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ApiProductosRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IProductosRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PedidosClient.cs" />
   </ItemGroup>
 </Project>
