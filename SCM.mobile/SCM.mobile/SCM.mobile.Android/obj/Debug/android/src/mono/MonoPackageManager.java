@@ -107,6 +107,7 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "SCM.mobile.Android.dll" comes first in this list. */
 		"SCM.mobile.Android.dll",
+		"Microsoft.AspNet.SignalR.Client.dll",
 		"Newtonsoft.Json.dll",
 	};
 	public static final String[] Dependencies = new String[]{

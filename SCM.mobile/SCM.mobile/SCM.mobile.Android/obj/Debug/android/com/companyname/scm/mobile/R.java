@@ -13,14 +13,20 @@ public final class R {
     public static final class id {
         public static final int btnCancelarPedido=0x7f050007;
         public static final int btnCompletarPedido=0x7f050008;
+        public static final int btnEsperando=0x7f050011;
+        public static final int btnIniciar=0x7f050010;
         public static final int btnIniciarSesion=0x7f05000e;
         public static final int btnMisPedidos=0x7f050000;
         public static final int btnSalir=0x7f050001;
+        public static final int editLat=0x7f050014;
+        public static final int editPedido=0x7f050012;
         public static final int editTelefonoLogin=0x7f05000d;
+        public static final int editText4=0x7f050015;
         public static final int imgImagen=0x7f05000a;
         public static final int listPedidos=0x7f05000f;
         public static final int listProductos=0x7f050003;
         public static final int textView1=0x7f050002;
+        public static final int textView2=0x7f050013;
         public static final int tvCategoria=0x7f05000b;
         public static final int tvDescripcion=0x7f050004;
         public static final int tvEstatus=0x7f050006;
@@ -34,6 +40,7 @@ public final class R {
         public static final int itemproducto=0x7f030002;
         public static final int main=0x7f030003;
         public static final int mispedidos=0x7f030004;
+        public static final int repartidorsingalr=0x7f030005;
     }
     public static final class mipmap {
         public static final int icon=0x7f020000;

@@ -1,5 +1,6 @@
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/SCM.mobile.Android.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/Java.Interop.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/Microsoft.AspNet.SignalR.Client.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/mscorlib.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/Newtonsoft.Json.dll
@@ -18,6 +19,16 @@
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Reflection.Primitives.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Threading.Tasks.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Threading.Timer.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.IO.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Security.Cryptography.X509Certificates.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Net.Primitives.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Text.Encoding.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Dynamic.Runtime.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Globalization.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/System.ServiceModel.Internals.dll
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/netstandard.dll

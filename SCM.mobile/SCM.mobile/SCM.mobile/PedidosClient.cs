@@ -4,8 +4,10 @@ using Microsoft.AspNet.SignalR.Client;
 
 namespace SCM.mobile
 {
-    public class UbicacionCambioEventArgs: EventArgs{
-        public UbicacionCambioEventArgs(long lat, long lon){
+    public class UbicacionCambioEventArgs : EventArgs
+    {
+        public UbicacionCambioEventArgs(long lat, long lon)
+        {
             Latitud = lat;
             Longitud = lon;
         }
@@ -25,11 +27,12 @@ namespace SCM.mobile
 
         public PedidosClient()
         {
-            hubConnection = new HubConnection(@"");
-            proxy = hubConnection.CreateHubProxy("Pedidos");
+            hubConnection = new HubConnection(@"https://signalrpruebaspizzas.azurewebsites.net");
+            proxy = hubConnection.CreateHubProxy("PedidosHub");
         }
 
-        public async Task Connect(){
+        public async Task Connect()
+        {
             await hubConnection.Start();
             proxy.On("pedidoIniciado,", () =>
             {
@@ -38,34 +41,58 @@ namespace SCM.mobile
                     OnPedidoIniciado(this, new EventArgs());
                 }
             });
-            proxy.On("estoyEsperando,", () => {
+            proxy.On("estoyEsperando,", () =>
+            {
                 if (OnEstoyEsperando != null)
                 {
                     OnEstoyEsperando(this, new EventArgs());
                 }
             });
-            proxy.On("ubicacionCambio,", (long lat, long lon) => {
+            proxy.On("ubicacionCambio,", (long lat, long lon) =>
+            {
                 if (OnUbicacionCambio != null)
                 {
-                    OnUbicacionCambio(this, new UbicacionCambioEventArgs(lat,lon));
+                    OnUbicacionCambio(this, new UbicacionCambioEventArgs(lat, lon));
                 }
             });
         }
 
-        public Task IniciarRecorrido(string pedidoID){
-            return proxy.Invoke("IniciarRecorrido",pedidoID);
+        public Task IniciarRecorrido(string pedidoID)
+        {
+            if (hubConnection.State == ConnectionState.Connected)
+            {
+                return proxy.Invoke("IniciarRecorrido", pedidoID);
+            }
+            return Task.CompletedTask;
         }
+
         public Task EsperarPedido(string pedidoID)
         {
-            return proxy.Invoke("EsperarPedido",pedidoID);
+            if (hubConnection.State == ConnectionState.Connected)
+            {
+                return proxy.Invoke("EsperarPedido", pedidoID);
+            }
+            return Task.CompletedTask;
         }
+
+
         public Task NotificarUbicacion(string pedidoID, long lat, long lon)
         {
-            return proxy.Invoke("NotificarUbicacion",pedidoID,lat,lon);
+            if (hubConnection.State == ConnectionState.Connected)
+            {
+                return proxy.Invoke("NotificarUbicacion", pedidoID);
+            }
+            return Task.CompletedTask;
         }
+
+
         public Task DondeEstaMiComida(string pedidoID)
         {
-            return proxy.Invoke("DondeEstaMiComida",pedidoID);
+            if (hubConnection.State == ConnectionState.Connected)
+            {
+                return proxy.Invoke("DondeEstaMiComida", pedidoID);
+            }
+            return Task.CompletedTask;
         }
     }
 }

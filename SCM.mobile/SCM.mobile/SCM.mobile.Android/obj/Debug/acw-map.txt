@@ -10,6 +10,10 @@ SCM.mobile.Droid.MisPedidosActivity, SCM.mobile.Android;md5717cc19635ebaefb2fba2
 SCM.mobile.Droid.MisPedidosActivity, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
 SCM.mobile.Droid.MisPedidosActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
 scm.mobile.droid.MisPedidosActivity;md5717cc19635ebaefb2fba2dc5fcdc9ef7.MisPedidosActivity
+SCM.mobile.Droid.RepartidorSignalR, SCM.mobile.Android;md5717cc19635ebaefb2fba2dc5fcdc9ef7.RepartidorSignalR
+SCM.mobile.Droid.RepartidorSignalR, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5717cc19635ebaefb2fba2dc5fcdc9ef7.RepartidorSignalR
+SCM.mobile.Droid.RepartidorSignalR;md5717cc19635ebaefb2fba2dc5fcdc9ef7.RepartidorSignalR
+scm.mobile.droid.RepartidorSignalR;md5717cc19635ebaefb2fba2dc5fcdc9ef7.RepartidorSignalR
 SCM.mobile.Droid.Adapters.CatalogoAdapter, SCM.mobile.Android;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
 SCM.mobile.Droid.Adapters.CatalogoAdapter, SCM.mobile.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter
 SCM.mobile.Droid.Adapters.CatalogoAdapter;md562780b35a89fb15ab2db6a9e32f5a786.CatalogoAdapter

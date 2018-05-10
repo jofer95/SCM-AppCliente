@@ -58,6 +58,7 @@
     <Compile Include="Adapters\CatalogoAdapter.cs" />
     <Compile Include="MisPedidosActivity.cs" />
     <Compile Include="Adapters\MisPedidosAdapter.cs" />
+    <Compile Include="RepartidorSignalR.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -77,6 +78,7 @@
     <AndroidResource Include="Resources\layout\itemProducto.axml" />
     <AndroidResource Include="Resources\layout\MisPedidos.axml" />
     <AndroidResource Include="Resources\layout\itemMisPedidos.axml" />
+    <AndroidResource Include="Resources\layout\RepartidorSingalR.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Adapters\" />

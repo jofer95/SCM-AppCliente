@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{C6BB56E5-C5CE-42F1-8387-85DBE58F31A5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile/PedidosClient.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SCM.mobile/SCM.mobile.Android/RepartidorSignalR.cs">
     <Files>
-      <File FileName="SCM.mobile/SCM.mobile/PedidosClient.cs" Line="41" Column="48" />
+      <File FileName="SCM.mobile/SCM.mobile.Android/RepartidorSignalR.cs" Line="26" Column="47" />
+      <File FileName="SCM.mobile/SCM.mobile/PedidosClient.cs" Line="91" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -9,6 +10,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.SCM.mobile.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.ce0917192cf49305057e" />
   <MultiItemStartupConfigurations />
 </Properties>

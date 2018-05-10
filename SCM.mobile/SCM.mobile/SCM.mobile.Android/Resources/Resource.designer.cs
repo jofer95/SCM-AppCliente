@@ -50,6 +50,12 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050008
 			public const int btnCompletarPedido = 2131034120;
 			
+			// aapt resource value: 0x7f050011
+			public const int btnEsperando = 2131034129;
+			
+			// aapt resource value: 0x7f050010
+			public const int btnIniciar = 2131034128;
+			
 			// aapt resource value: 0x7f05000e
 			public const int btnIniciarSesion = 2131034126;
 			
@@ -59,8 +65,17 @@ namespace SCM.mobile.Droid
 			// aapt resource value: 0x7f050001
 			public const int btnSalir = 2131034113;
 			
+			// aapt resource value: 0x7f050014
+			public const int editLat = 2131034132;
+			
+			// aapt resource value: 0x7f050012
+			public const int editPedido = 2131034130;
+			
 			// aapt resource value: 0x7f05000d
 			public const int editTelefonoLogin = 2131034125;
+			
+			// aapt resource value: 0x7f050015
+			public const int editText4 = 2131034133;
 			
 			// aapt resource value: 0x7f05000a
 			public const int imgImagen = 2131034122;
@@ -73,6 +88,9 @@ namespace SCM.mobile.Droid
 			
 			// aapt resource value: 0x7f050002
 			public const int textView1 = 2131034114;
+			
+			// aapt resource value: 0x7f050013
+			public const int textView2 = 2131034131;
 			
 			// aapt resource value: 0x7f05000b
 			public const int tvCategoria = 2131034123;
@@ -119,6 +137,9 @@ namespace SCM.mobile.Droid
 			
 			// aapt resource value: 0x7f030004
 			public const int MisPedidos = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int RepartidorSingalR = 2130903045;
 			
 			static Layout()
 			{
