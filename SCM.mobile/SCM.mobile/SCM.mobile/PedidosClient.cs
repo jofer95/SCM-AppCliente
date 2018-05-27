@@ -6,14 +6,14 @@ namespace SCM.mobile
 {
     public class UbicacionCambioEventArgs : EventArgs
     {
-        public UbicacionCambioEventArgs(long lat, long lon)
+        public UbicacionCambioEventArgs(double lat, double lon)
         {
             Latitud = lat;
             Longitud = lon;
         }
 
-        public long Latitud { get; }
-        public long Longitud { get; }
+        public double Latitud { get; }
+        public double Longitud { get; }
     }
     public class PedidosClient
     {
@@ -34,65 +34,57 @@ namespace SCM.mobile
         public async Task Connect()
         {
             await hubConnection.Start();
-            proxy.On("pedidoIniciado,", () =>
-            {
+            proxy.On("pedidoIniciado", () => {
                 if (OnPedidoIniciado != null)
                 {
                     OnPedidoIniciado(this, new EventArgs());
                 }
             });
-            proxy.On("estoyEsperando,", () =>
-            {
+            proxy.On("estoyEsperando", () => {
                 if (OnEstoyEsperando != null)
                 {
                     OnEstoyEsperando(this, new EventArgs());
                 }
             });
-            proxy.On("ubicacionCambio,", (long lat, long lon) =>
-            {
+            proxy.On("ubicacionCambio", (double lat, double lon) => {
                 if (OnUbicacionCambio != null)
                 {
                     OnUbicacionCambio(this, new UbicacionCambioEventArgs(lat, lon));
                 }
             });
         }
-
-        public Task IniciarRecorrido(string pedidoID)
+        public Task IniciarRecorrido(string pedidoid)
         {
             if (hubConnection.State == ConnectionState.Connected)
             {
-                return proxy.Invoke("IniciarRecorrido", pedidoID);
+                return proxy.Invoke("IniciarRecorrido", pedidoid);
             }
-            return Task.CompletedTask;
+            return Task.Delay(0);
         }
-
-        public Task EsperarPedido(string pedidoID)
+        public Task EsperarPedido(string pedidoid)
         {
             if (hubConnection.State == ConnectionState.Connected)
             {
-                return proxy.Invoke("EsperarPedido", pedidoID);
+                return proxy.Invoke("EsperarPedido", pedidoid);
             }
-            return Task.CompletedTask;
+            return Task.Delay(0);
         }
-
-
-        public Task NotificarUbicacion(string pedidoID, long lat, long lon)
+        public Task NotificarUbicacion(string pedidoId, double lat, double lon)
         {
             if (hubConnection.State == ConnectionState.Connected)
             {
-                return proxy.Invoke("NotificarUbicacion", pedidoID);
+                return proxy.Invoke("NotificarUbicacion", pedidoId, lat, lon);
             }
-            return Task.CompletedTask;
+            return Task.Delay(0);
         }
-
-
-        public Task DondeEstaMiComida(string pedidoID)
+        public Task DondeEstaMiComida(string pedidoId)
         {
             if (hubConnection.State == ConnectionState.Connected)
             {
-                return proxy.Invoke("DondeEstaMiComida", pedidoID);
+                return proxy.Invoke("DondeEstaMiComida", pedidoId);
             }
-            return Task.CompletedTask;
+            return Task.Delay(0);
         }
+
     }
 }

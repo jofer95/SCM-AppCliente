@@ -3,21 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnIniciar"
-        android:text="Iniciar" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnEsperando"
-        android:text="Esperando" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
-        android:text="Pedido" />
+        android:text="Pedido ID"
+        android:textSize="20sp"
+        android:textColor="#ffffffff" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,15 +18,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:text="Coordenadas" />
+        android:text="Coordenadas de mi pedido"
+        android:textColor="#ffffffff"
+        android:textSize="20sp" />
     <EditText
         android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editLat" />
-    <EditText
-        android:inputType="numberDecimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editLon" />
+        android:enabled="false"
+        android:id="@+id/editCoordenadas" />
 </LinearLayout>

@@ -50,74 +50,102 @@ C:/Users/Kassandra/Documents/NEGOCIOS ELECTRONICOS2/App-Cliente/SCM.mobile/SCM.m
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemmispedidos.xml
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.cs.flag
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/uploadflags.txt
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.csproj.CoreCompileInputs.cache
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/SCM.mobile.Android.dll
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/SCM.mobile.Android.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/com.companyname.SCM.mobile.apk
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/com.companyname.SCM.mobile-Signed.apk
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Microsoft.AspNet.SignalR.Client.dll
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Newtonsoft.Json.dll
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Newtonsoft.Json.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Microsoft.AspNet.SignalR.Client.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.csproj.CopyComplete
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.dll
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/bin/com.companyname.SCM.mobile.apk
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/main.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/values/strings.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-hdpi/icon.png
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-mdpi/icon.png
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xhdpi/icon.png
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxhdpi/icon.png
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/catalogo.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemproducto.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/mispedidos.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemmispedidos.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/repartidorsingalr.xml
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.cs.flag
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/uploadflags.txt
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Android.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/mscorlib.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Core.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Net.Http.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Xml.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Runtime.Serialization.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.ServiceModel.Internals.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Data.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Numerics.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Transactions.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Data.Tds.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Security.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.IO.Compression.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.IO.Compression.FileSystem.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.ComponentModel.Composition.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Web.Services.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/System.Xml.Linq.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/Mono.Android.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/mscorlib.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Core.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Net.Http.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Xml.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Runtime.Serialization.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.ServiceModel.Internals.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Data.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Numerics.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Transactions.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/Mono.Data.Tds.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/Mono.Security.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.IO.Compression.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.IO.Compression.FileSystem.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.ComponentModel.Composition.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Web.Services.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/System.Xml.Linq.pdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/SCM.mobile.Android.dll.mdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/SCM.mobile.Android.dll.mdb
+C:/Users/Jorge Barraza/Documents/Git/Git-Jorge/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/assets/SCM.mobile.Android.dll.mdb
+/Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/repartidorsingalr.xml
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Mono.Android.pdb
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/SCM.mobile.Android.pdb
 /Users/jorgebz/Documents/git/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/Mono.Android.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\SCM.mobile.Android.csproj.CoreCompileInputs.cache
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\SCM.mobile.Android.dll
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\SCM.mobile.Android.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\com.companyname.SCM.mobile.apk
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\com.companyname.SCM.mobile-Signed.apk
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\SCM.mobile.Android.csproj.CopyComplete
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\SCM.mobile.Android.dll
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\SCM.mobile.Android.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\android\bin\com.companyname.SCM.mobile.apk
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\main.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\values\strings.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\mipmap-hdpi\icon.png
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\mipmap-mdpi\icon.png
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\mipmap-xhdpi\icon.png
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\mipmap-xxhdpi\icon.png
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\mipmap-xxxhdpi\icon.png
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\catalogo.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\itemproducto.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\mispedidos.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\itemmispedidos.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\res\layout\repartidorsingalr.xml
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\R.cs.flag
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\uploadflags.txt
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Mono.Android.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\mscorlib.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Core.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Net.Http.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Xml.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Runtime.Serialization.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.ServiceModel.Internals.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Data.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Numerics.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Transactions.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Mono.Data.Tds.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\Mono.Security.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.IO.Compression.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.ComponentModel.Composition.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Web.Services.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\System.Xml.Linq.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\Mono.Android.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\mscorlib.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Core.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Net.Http.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Xml.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Runtime.Serialization.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Data.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Numerics.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Transactions.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\Mono.Data.Tds.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\Mono.Security.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.IO.Compression.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.IO.Compression.FileSystem.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Web.Services.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\System.Xml.Linq.pdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\SCM.mobile.Android.dll.mdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\SCM.mobile.Android.dll.mdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\android\assets\SCM.mobile.Android.dll.mdb
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\bin\Debug\SCM.mobile.Android.dll
-C:\Users\Jorge Barraza\Documents\Git\Git-Jorge\App-Cliente\SCM.mobile\SCM.mobile\SCM.mobile.Android\obj\Debug\linksrc\SCM.mobile.Android.dll.mdb
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/SCM.mobile.Android.dll
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/SCM.mobile.Android.pdb
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/com.companyname.SCM.mobile.apk
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/com.companyname.SCM.mobile-Signed.apk
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Microsoft.AspNet.SignalR.Client.dll
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Newtonsoft.Json.dll
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Newtonsoft.Json.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/bin/Debug/Microsoft.AspNet.SignalR.Client.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.csprojResolveAssemblyReference.cache
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.csproj.CoreCompileInputs.cache
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.dll
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/SCM.mobile.Android.pdb
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/android/bin/com.companyname.SCM.mobile.apk
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/main.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/values/strings.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/catalogo.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemproducto.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/mispedidos.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/itemmispedidos.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/res/layout/repartidorsingalr.xml
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.cs.flag
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/R.txt
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/uploadflags.txt
+/Users/jorgebarraza/Desktop/Proyectos moya 2do parcial/App-Cliente/SCM.mobile/SCM.mobile/SCM.mobile.Android/obj/Debug/linksrc/SCM.mobile.Android.pdb

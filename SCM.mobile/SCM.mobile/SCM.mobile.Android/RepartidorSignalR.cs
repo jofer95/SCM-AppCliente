@@ -17,47 +17,50 @@ namespace SCM.mobile.Droid
     public class RepartidorSignalR : Activity
     {
         PedidosClient pedidos;
-        Button btnIniciar;
-        Button btnEsperar;
         EditText editPedido;
-        EditText editLat;
-        EditText editLon;
+        EditText editCoordenadas;
+        string pedidoId;
+        string estatusPedido;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.RepartidorSingalR);
-            btnIniciar = FindViewById<Button>(Resource.Id.btnIniciar);
-            btnEsperar = FindViewById<Button>(Resource.Id.btnEsperando);
+            pedidoId = Intent.GetStringExtra("MyData") ?? "";
+            estatusPedido = Intent.GetStringExtra("estado") ?? "";
+            //btnIniciar = FindViewById<Button>(Resource.Id.btnIniciar);
+            //btnEsperar = FindViewById<Button>(Resource.Id.btnEsperando);
 
             editPedido = FindViewById<EditText>(Resource.Id.editPedido);
-            editLat = FindViewById<EditText>(Resource.Id.editLat);
-            editLon = FindViewById<EditText>(Resource.Id.editLon);
+            editCoordenadas = FindViewById<EditText>(Resource.Id.editCoordenadas);
+            editPedido.Text = pedidoId;
             pedidos = new PedidosClient();
 
-            pedidos.OnEstoyEsperando += Pedidos_OnEstoyEsperando;
-            // Create your application here
-        }
+            /*pedidos.OnPedidoIniciado += Pedidos_OnPedidoIniciado;
+            pedidos.OnUbicacionCambio += Pedidos_OnUbicacionCambio;
+            pedidos.OnEstoyEsperando += Pedidos_OnEstoyEsperando;*/
 
-        protected override async void OnResume()
-        {
+            pedidos = new PedidosClient();
+            pedidos.OnPedidoIniciado += Pedidos_OnPedidoIniciado;
+            pedidos.OnUbicacionCambio += Pedidos_OnUbicacionCambio;        }
+
+		protected override async void OnResume()
+		{
             base.OnResume();
-            await pedidos.Connect();
+            if(estatusPedido.Equals("EN")){
+                await pedidos.Connect();
+                await pedidos.EsperarPedido(pedidoId);
+            }
+		}
+
+		void Pedidos_OnPedidoIniciado(object sender, EventArgs e)
+        {
+            //txtEstado.Text = "Pedido iniciado en " + DateTime.Now.ToShortTimeString();
+        }
+        void Pedidos_OnUbicacionCambio(object sender, UbicacionCambioEventArgs e)
+        {
+            RunOnUiThread(() => editCoordenadas.Text = e.Latitud.ToString() + "," + e.Longitud.ToString());
         }
 
-        async void IniciarBtn_Click(Object sender, System.EventArgs e){
-            var pedido = editPedido.Text;
-            await pedidos.IniciarRecorrido(pedido);
-        }
-
-        async void SpLat_ProgressChanged(Object sender, System.EventArgs e){
-            //var lat = SpLat_Progress;
-            //var lon = SpLat_Progress;
-            await pedidos.NotificarUbicacion(editPedido.Text, long.Parse(editLat.Text), long.Parse(editLat.Text));
-        }
-
-        void Pedidos_OnEstoyEsperando(object sender,System.EventArgs e){
-            //Toast;
-        }
 	}
 }

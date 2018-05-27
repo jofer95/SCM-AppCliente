@@ -40,7 +40,10 @@ namespace SCM.mobile.Droid
 
 		private void onItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-
+            var detalle = new Intent(this, typeof(RepartidorSignalR));
+            detalle.PutExtra("MyData", adapter[e.Position].PedidoID);
+            detalle.PutExtra("estado", adapter[e.Position].Estado);
+            StartActivity(detalle);
         }
         public async void obtenerCatalogoProductos()
         {
